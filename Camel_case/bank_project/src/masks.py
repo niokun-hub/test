@@ -1,4 +1,4 @@
-def get_mask_card_number(card_number: str) -> str:
+def get_mask_card_number(card_number: str):
 
     first_part = card_number[:4]
     second_part = card_number[4:6]
